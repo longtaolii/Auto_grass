@@ -67,8 +67,7 @@ async def connect_to_wss(socks5_proxy, user_id):
 
 
 async def main():
-    # TODO 修改user_id
-    with open ('grass.txt','r') as f:
+    with open ('account.txt','r') as f:
         lines = f.readlines()
     tasks = []
     for line in lines:
